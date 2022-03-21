@@ -1,0 +1,9 @@
+{
+    "name": "example/sample-other-dep",
+    "type": "library",
+    "license": "CC-0",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}

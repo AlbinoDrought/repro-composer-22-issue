@@ -1,0 +1,23 @@
+{
+    "name": "example/repro-devmain",
+    "type": "project",
+    "license": "CC-0",
+    "require": {
+        "example/sample-dep": "dev-master",
+        "example/sample-other-dep": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./lib/sample-dep"
+        },
+        {
+            "type": "path",
+            "url": "./lib/sample-other-dep"
+        }
+    ]
+}
